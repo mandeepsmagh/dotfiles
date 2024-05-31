@@ -3,7 +3,7 @@ local wezterm = require 'wezterm'
 
 -- This will hold the configuration.
 local config = wezterm.config_builder()
-
+config.scrollback_lines = 50000
 
 -- Set the default shell for Windows
 config.default_prog = {"pwsh", "-NoLogo"}
@@ -22,8 +22,8 @@ config.leader = { key="a", mods="CTRL" }
 -- Keybindings
 config.keys = {
   {key="a", mods="LEADER|CTRL", action=wezterm.action{SendString="\x01"}},
-  {key="v", mods="LEADER", action=wezterm.action{SplitHorizontal={domain="CurrentPaneDomain"}}},
-  {key="h", mods="LEADER", action=wezterm.action{SplitVertical={domain="CurrentPaneDomain"}}},
+  {key="v", mods="CTRL", action=wezterm.action{SplitHorizontal={domain="CurrentPaneDomain"}}},
+  {key="h", mods="CTRL", action=wezterm.action{SplitVertical={domain="CurrentPaneDomain"}}},
   {key="l", mods="SUPER", action="ShowLauncher"},
   {key="r", mods="SUPER", action="ReloadConfiguration"},
   {key="f", mods="LEADER", action="ToggleFullScreen"},
@@ -36,7 +36,7 @@ config.keys = {
   {key="UpArrow", mods="CTRL|SHIFT", action=wezterm.action{AdjustPaneSize={"Up", 1}}},
   {key="DownArrow", mods="CTRL|SHIFT", action=wezterm.action{AdjustPaneSize={"Down", 1}}},
   {key="x", mods="CTRL", action=wezterm.action{CloseCurrentPane={confirm=true}}},
-  {key="z", mods="LEADER", action="TogglePaneZoomState"},
+  {key="z", mods="CTRL", action="TogglePaneZoomState"},
 }
 -- and finally, return the configuration to wezterm
 return config
