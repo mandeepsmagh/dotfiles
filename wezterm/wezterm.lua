@@ -27,6 +27,8 @@ config.keys = {
   {key="l", mods="SUPER", action="ShowLauncher"},
   {key="r", mods="SUPER", action="ReloadConfiguration"},
   {key="f", mods="LEADER", action="ToggleFullScreen"},
+  {key="t", mods="LEADER", action=wezterm.action{SpawnTab="CurrentPaneDomain"}},
+  {key="LeftArrow", mods="LEADER", action=wezterm.action{ActivatePaneDirection="Left"}},
   {key="LeftArrow", mods="LEADER", action=wezterm.action{ActivatePaneDirection="Left"}},
   {key="RightArrow", mods="LEADER", action=wezterm.action{ActivatePaneDirection="Right"}},
   {key="UpArrow", mods="LEADER", action=wezterm.action{ActivatePaneDirection="Up"}},
