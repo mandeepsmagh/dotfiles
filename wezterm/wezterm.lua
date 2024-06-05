@@ -6,7 +6,7 @@ local config = wezterm.config_builder()
 config.scrollback_lines = 50000
 
 -- Set the default shell for Windows
-config.default_prog = {"pwsh", "-NoLogo"}
+config.default_prog = {"pwsh.exe", "-NoLogo"}
 
 -- This is where you actually apply your config choices
 
