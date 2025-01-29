@@ -1,1 +1,9 @@
 shell-integration = zsh
+theme = desert
+font-size = 16
+font-feature = liga
+
+#keymaps
+keybind = global:ctrl+grave_accent=toggle_quick_terminal
+
+window-save-state = always
