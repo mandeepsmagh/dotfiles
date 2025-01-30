@@ -6,4 +6,9 @@ font-feature = liga
 #keymaps
 keybind = global:ctrl+grave_accent=toggle_quick_terminal
 
+# window
 window-save-state = always
+
+# clipboard
+clipboard-trim-trailing-spaces = true
+
