@@ -125,20 +125,20 @@
             "keys": "alt+h"
         },
         {
-            "id": "User.SplitPaneVertical",
-            "keys": "alt+v"
-        },
-        {
             "id": "User.MoveFocusLeft",
             "keys": "alt+left"
         },
         {
-            "id": "User.MoveFocusRight",
-            "keys": "alt+right"
+            "id": "User.SplitPaneVertical",
+            "keys": "alt+v"
         },
         {
             "id": "User.MoveFocusUp",
             "keys": "alt+up"
+        },
+        {
+            "id": "User.MoveFocusRight",
+            "keys": "alt+right"
         },
         {
             "id": "User.MoveFocusDown",
@@ -146,19 +146,19 @@
         },
         {
             "id": "User.ResizePaneUp",
-            "keys": "ctrl+up"
+            "keys": "alt+shift+up"
         },
         {
             "id": "User.ResizePaneDown",
-            "keys": "ctrl+down"
+            "keys": "alt+shift+down"
         },
         {
             "id": "User.ResizePaneLeft",
-            "keys": "ctrl+left"
+            "keys": "alt+shift+left"
         },
         {
             "id": "User.ResizePaneRight",
-            "keys": "ctrl+right"
+            "keys": "alt+shift+right"
         },
         {
             "id": "User.DuplicatePaneAuto",
@@ -180,8 +180,7 @@
             "id": "User.ClosePane",
             "keys": "alt+w"
         }
-    ],
-    "newTabMenu": 
+    ],    "newTabMenu": 
     [
         {
             "type": "remainingProfiles"
