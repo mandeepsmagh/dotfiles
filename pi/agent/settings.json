@@ -1,0 +1,9 @@
+{
+  "lastChangelogVersion": "0.75.5",
+  "compaction": {
+    "enabled": true
+  },
+  "defaultProvider": "llama-cpp",
+  "defaultModel": "Qwen3.6-35B",
+  "hideThinkingBlock": false
+}
